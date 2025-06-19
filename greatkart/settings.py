@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 # CẢNH BÁO BẢO MẬT: không chạy với chế độ debug bật trong môi trường production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['40.67.244.146', 'localhost', '127.0.0.1']
 
 
 # Application definition
